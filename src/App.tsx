@@ -11,6 +11,7 @@ import Workshop from "./pages/Workshop";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import AuthLayout from "./layouts/AuthLayout";
+import RegisterForm from "./pages/RegisterForm";
 
 
 function App() {
@@ -29,9 +30,10 @@ function App() {
 
 
         <Route element={<AuthLayout/>}>
-          <Route path="/Login" element={<LoginForm/>} />
-          <Route path="/Login" element={<HomePage/>} />
-          <Route path="/register" element={<RegisterEvent />} />
+          <Route path="/login" element={<LoginForm />} />
+          <Route path="/register" element={<RegisterForm />} />
+          <Route path="/register/event" element={<RegisterEvent />} />
+
         </Route>
 
 
