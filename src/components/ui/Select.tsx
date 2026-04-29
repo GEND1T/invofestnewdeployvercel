@@ -1,7 +1,7 @@
 interface SelectProps{
     label:string;
     name:string;
-    register:any;
+    register: any;
     error?:string;
     options:{label:string; value:string}[];
 }
