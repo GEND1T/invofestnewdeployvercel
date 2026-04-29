@@ -11,7 +11,7 @@ export default function AuthLayout(){
                     alt=""
                     className='w-96'
                 />
-                <h2 className="font-bold text-4xl">Ambagar GARUK SILIT</h2>
+                <h2 className="font-bold text-4xl"></h2>
             </div>
 
             {/* kanan */}

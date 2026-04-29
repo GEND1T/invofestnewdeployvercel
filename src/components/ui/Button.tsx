@@ -4,6 +4,7 @@ interface ButtonProps {
     type?: "button" | "submit";
     onClick?: () => void;
     isLoading?: boolean;
+    className?: string;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -11,6 +12,7 @@ export const Button: React.FC<ButtonProps> = ({
     variant = "primary",
     type = "button",
     isLoading = false,
+    
 }) => {
     const baseStyle =
         "px-4 py-2 rounded font-medium";
